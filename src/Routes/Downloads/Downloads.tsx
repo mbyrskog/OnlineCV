@@ -90,7 +90,7 @@ const Downloads: React.FC = () => {
               {title}
             </Link>
           ) : (
-            <Typography variant="h6">{title}</Typography>
+            <Typography fontWeight={"bold"}>{title}</Typography>
           )}
 
           <Typography>{description}</Typography>
