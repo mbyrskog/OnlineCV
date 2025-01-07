@@ -1,0 +1,72 @@
+import React from "react";
+import { Box, Typography, Divider, Grid2 } from "@mui/material";
+import { workData } from "./WorkData";
+
+const Work: React.FC = () => {
+  return (
+    <Box>
+      <Typography variant="h4">Work experience</Typography>
+      <Divider sx={{ marginY: 2 }} />
+      {workData.map((work, index) => (
+        <Box key={index} marginBottom={2}>
+          <Grid2 container>
+            <Grid2 size={10}>
+              <Typography variant="h5">{work.company || ""}</Typography>
+              <Typography variant="h6">
+                {work.position ? `${work.position} • ` : ""}
+                {work.date}
+              </Typography>
+
+              {work.assignment && (
+                <Box>
+                  {work.assignment.map((assignment, index) => (
+                    <Box key={index} sx={{ mt: 1 }}>
+                      <Typography>{assignment.title}</Typography>
+                      <Typography whiteSpace="pre-line">
+                        {assignment.description}
+                      </Typography>
+                      {assignment.skills && (
+                        <Typography sx={{ fontStyle: "italic", mb: 2, mt: 1 }}>
+                          {assignment.skills.join(", ")}
+                        </Typography>
+                      )}
+                    </Box>
+                  ))}
+                </Box>
+              )}
+
+              <Typography whiteSpace="pre-line">{work.description}</Typography>
+
+              {work.skills && (
+                <Typography sx={{ mb: 2, mt: 1, fontStyle: "italic" }}>
+                  {work.skills.join(", ")}
+                </Typography>
+              )}
+            </Grid2>
+
+            <Grid2 size={2} sx={{ textAlign: "right" }}>
+              {work.image && (
+                <a
+                  href={work.link || "#"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={work.image}
+                    alt={`${work.company} logo`}
+                    style={{
+                      maxWidth: "90px",
+                      maxHeight: "50px",
+                    }}
+                  />
+                </a>
+              )}
+            </Grid2>
+          </Grid2>
+        </Box>
+      ))}
+    </Box>
+  );
+};
+
+export default Work;
