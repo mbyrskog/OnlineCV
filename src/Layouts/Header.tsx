@@ -11,6 +11,7 @@ import {
   List,
   ListItemText,
   ListItemButton,
+  Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
@@ -134,11 +135,11 @@ const Header: React.FC<{
                     }}
                   >
                     <ListItemText
-                      primary={page.name}
-                      primaryTypographyProps={{
-                        variant: "body2",
-                        fontSize: "large",
-                      }}
+                      primary={
+                        <Typography variant="body2" fontSize="large">
+                          {page.name}
+                        </Typography>
+                      }
                     />
                   </ListItemButton>
                 ))}

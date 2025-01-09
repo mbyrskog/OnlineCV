@@ -29,14 +29,14 @@ export const linkData: LinkData[] = [
   {
     title: "Car Store",
     description:
-      "Console application i made in C#, simulating a car store with different options for listing the cars.",
+      "Console application made in C#, simulating a car store with different options for listing the cars.",
     titleTwo: "GitHub repository",
     urlTwo: "https://github.com/mbyrskog/CarStore",
   },
   {
     title: "TV Show Advisor",
     description:
-      "An app i made while taking a course, using React and JavaScript.",
+      "An app I made while taking a course, using React and JavaScript.",
     url: "https://tv-show-advisor-gamma.vercel.app/",
     titleTwo: "GitHub repository",
     urlTwo: "https://github.com/mbyrskog/Tv-show-advisor",
@@ -44,7 +44,7 @@ export const linkData: LinkData[] = [
   {
     title: "MB Hotels",
     description:
-      "An app i made while taking a course, using Angular and TypeScript.",
+      "An app I made while taking a course, using Angular and TypeScript.",
     url: "https://hotel-app-eight-plum.vercel.app/",
     titleTwo: "GitHub Repository",
     urlTwo: "https://github.com/mbyrskog/HotelApp",

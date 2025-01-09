@@ -72,7 +72,7 @@ const Downloads: React.FC = () => {
         Links
       </Typography>
 
-      {linkData.map(({ title, description, url, titleTwo, urlTwo: urlTwo }) => (
+      {linkData.map(({ title, description, url, titleTwo, urlTwo }) => (
         <Box
           gap={1}
           key={title}
@@ -90,7 +90,9 @@ const Downloads: React.FC = () => {
               {title}
             </Link>
           ) : (
-            <Typography fontWeight={"bold"}>{title}</Typography>
+            <Typography variant="h6" color="text.secondary">
+              {title}
+            </Typography>
           )}
 
           <Typography>{description}</Typography>
