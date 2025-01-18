@@ -36,7 +36,7 @@ export const linkData: LinkData[] = [
   {
     title: "TV Show Advisor",
     description:
-      "An app for searching and listing recommendations for TV shows. Using React and TypeScript.",
+      "An app for searching and listing recommendations for TV shows. Using React, TypeScript and themoviedb.org's API.",
     url: "https://tv-show-advisor-gamma.vercel.app/",
     titleTwo: "GitHub repository",
     urlTwo: "https://github.com/mbyrskog/Tv-show-advisor",
