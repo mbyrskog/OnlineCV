@@ -23,19 +23,12 @@ export const workData: WorkData[] = [
         title: "MKB Fastighets AB | February 2024 - Ongoing",
         description:
           "Ongoing development of an app for administrators to manage rental processes for parking spots around Malmö, queues for apartments, and more. Also managing support for previous systems.",
-        skills: ["TypeScript", "React", "C#/.NET", "Azure DevOps", "Scrum"],
+        skills: ["TypeScript", "React", "Azure DevOps", "Scrum"],
       },
       {
         title: "HSB Affärsstöd | January 2020 - October 2023",
         description: `Development of new microservices. Examples are a service for storing and sharing files, a service for managing motions, letters, subleases, and creating protocols for board meetings. Also working part-time as a Scrum Master, facilitating Scrum events and handling requirements in collaboration with product owners. Also managed support for these services.`,
-        skills: [
-          "TypeScript",
-          "Angular",
-          "C#/.NET",
-          "Microservices",
-          "Azure DevOps",
-          "Scrum",
-        ],
+        skills: ["TypeScript", "Angular", "C#/.NET", "Azure DevOps", "Scrum"],
       },
     ],
     image: "./assets/images/work/nexer.png",
