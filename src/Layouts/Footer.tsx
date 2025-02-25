@@ -1,5 +1,5 @@
 import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
-import { GitHub, Instagram, LinkedIn, Mail } from "@mui/icons-material";
+import { GitHub, LinkedIn, Mail } from "@mui/icons-material";
 
 const Footer: React.FC = () => {
   return (
