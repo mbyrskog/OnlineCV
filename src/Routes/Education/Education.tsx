@@ -11,12 +11,30 @@ const Education: React.FC = () => {
         <Box key={index} marginBottom={2}>
           <Grid2 container>
             <Grid2 size={10}>
-              <Typography variant="h5">
-                {edu.institution ? edu.institution : ""}
-              </Typography>
-              <Typography variant="h6">
-                {edu.title ? edu.title + " • " + edu.date : edu.date}
-              </Typography>
+              <Grid2 container>
+                <Grid2 size={{ xs: 10, lg: 8 }}>
+                  <Typography variant="h5">{edu.institution || ""}</Typography>
+                  <Typography variant="h6">
+                    {edu.title ? edu.title : ""}
+                  </Typography>
+                </Grid2>
+                <Grid2 size={{ xs: 10, sm: 10, md: 10, lg: 4, xl: 4 }}>
+                  <Typography
+                    variant="h6"
+                    sx={{
+                      textAlign: {
+                        xs: "left",
+                        sm: "left",
+                        md: "right",
+                        lg: "right",
+                        xl: "right",
+                      },
+                    }}
+                  >
+                    {edu.date}
+                  </Typography>
+                </Grid2>
+              </Grid2>
               <Typography whiteSpace="pre-line">{edu.description}</Typography>
             </Grid2>
             <Grid2 size={2} sx={{ textAlign: "right" }}>

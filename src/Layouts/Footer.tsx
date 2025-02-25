@@ -29,14 +29,6 @@ const Footer: React.FC = () => {
             >
               <GitHub />
             </IconButton>
-
-            <IconButton
-              href="https://www.instagram.com/michaelbyrskog/"
-              target="_blank"
-              color="inherit"
-            >
-              <Instagram />
-            </IconButton>
             <IconButton href="mailto:mbyrskog@hotmail.com" color="inherit">
               <Mail />
             </IconButton>

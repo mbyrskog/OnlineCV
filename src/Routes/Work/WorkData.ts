@@ -1,3 +1,14 @@
+export type Skills =
+  | "TypeScript"
+  | "Angular"
+  | "React"
+  | "C#/.NET"
+  | "Azure DevOps"
+  | "Scrum"
+  | "PHP"
+  | "WordPress"
+  | "Umbraco";
+
 interface WorkData {
   date: string;
   position?: string;
@@ -5,29 +16,29 @@ interface WorkData {
   description?: string;
   image?: string;
   link?: string;
-  skills?: string[];
+  skills?: Skills[];
   assignment?: {
     title: string;
     description: string;
-    skills?: string[];
+    skills?: Skills[];
   }[];
 }
 
 export const workData: WorkData[] = [
   {
     date: "2020-02 - TODAY",
-    position: "Consultant",
+    position: "Consultant / System Developer",
     company: "Nexer Group",
     assignment: [
       {
-        title: "MKB Fastighets AB | February 2024 - Ongoing",
+        title: "MKB Fastighets AB | February 2024 - Today",
         description:
-          "Ongoing development of an app for administrators to manage rental processes for parking spots around Malmö, queues for apartments, and more. Also managing support for previous systems.",
+          "Ongoing development of an application for administrators to manage rental processes for parking spots around Malmö, queues for apartments, and more. Also overseeing support for previous systems.",
         skills: ["TypeScript", "React", "Azure DevOps", "Scrum"],
       },
       {
         title: "HSB Affärsstöd | January 2020 - October 2023",
-        description: `Development of new microservices. Examples are a service for storing and sharing files, a service for managing motions, letters, subleases, and creating protocols for board meetings. Also working part-time as a Scrum Master, facilitating Scrum events and handling requirements in collaboration with product owners. Also managed support for these services.`,
+        description: `Development of new microservices. Examples are a service for storing and sharing files, a service for managing motions, letters, subleases and creating protocols for board meetings. Also worked part time as a Scrum Master, facilitating Scrum events and handling requirements in collaboration with product owners. Managed support for these services also.`,
         skills: ["TypeScript", "Angular", "C#/.NET", "Azure DevOps", "Scrum"],
       },
     ],
@@ -39,10 +50,10 @@ export const workData: WorkData[] = [
     position: "System Developer",
     company: "Skånes Kommuner",
     description:
-      "Development and maintenance of web applications. Mostly worked with a service for handling healthcare procurements around Skånes municipalities. Also overseeing support for this service.",
+      "Development, maintenance, and support of web applications. Worked with the intranet for the organization and with a public service for handling healthcare procurements around Skånes municipalities.",
     image: "./assets/images/work/skaneskommuner.jpg",
     link: "https://www.skaneskommuner.se",
-    skills: ["Angular", "C#/.NET", "PHP"],
+    skills: ["Angular", "C#/.NET", "Umbraco", "PHP", "WordPress"],
   },
   {
     date: "2012-06 - 2012-12",
@@ -62,7 +73,7 @@ export const workData: WorkData[] = [
     date: "2009-01 - 2011-12",
     company: "Stay Abroad",
     description:
-      "Extra jobs and occasional courses for university eligibility (Mathematics B).",
+      "Extra jobs and occasional courses for university eligibility.",
   },
   {
     date: "2004-12 - 2008-12",
