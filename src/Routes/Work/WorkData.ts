@@ -33,12 +33,13 @@ export const workData: WorkData[] = [
       {
         title: "MKB Fastighets AB | February 2024 - Today",
         description:
-          "Ongoing development of an application for administrators to manage rental processes for parking spots around Malmö, queues for apartments, and more. Also overseeing support for previous systems.",
+          "Development of an application for administrators to manage rental processes for parking spots around Malmö, queues for apartments, and more. Also working with support for previous systems.",
         skills: ["TypeScript", "React", "Azure DevOps", "Scrum"],
       },
       {
         title: "HSB Affärsstöd | January 2020 - October 2023",
-        description: `Development of new microservices. Examples are a service for storing and sharing files, a service for managing motions, letters, subleases and creating protocols for board meetings. Also worked part time as a Scrum Master, facilitating Scrum events and handling requirements in collaboration with product owners. Managed support for these services also.`,
+        description:
+          "Development of new microservices. Examples are a service for storing and sharing files, a service for managing motions, letters, subleases and creating protocols for board meetings. Also worked part time as a Scrum Master, facilitating Scrum events and handling requirements in collaboration with product owners. Support for these services was also part of the daily work",
         skills: ["TypeScript", "Angular", "C#/.NET", "Azure DevOps", "Scrum"],
       },
     ],
