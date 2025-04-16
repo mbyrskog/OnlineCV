@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Divider, Grid2 } from "@mui/material";
+import { Box, Typography, Divider, Grid } from "@mui/material";
 import { workData } from "./WorkData";
 
 const Work: React.FC = () => {
@@ -9,16 +9,16 @@ const Work: React.FC = () => {
       <Divider sx={{ marginY: 2 }} />
       {workData.map((work, index) => (
         <Box key={index} marginBottom={2}>
-          <Grid2 container>
-            <Grid2 size={10}>
-              <Grid2 container>
-                <Grid2 size={{ xs: 10, lg: 8 }}>
+          <Grid container>
+            <Grid size={10}>
+              <Grid container>
+                <Grid size={{ xs: 10, lg: 8 }}>
                   <Typography variant="h5">{work.company || ""}</Typography>
                   <Typography variant="h6">
                     {work.position ? work.position : ""}
                   </Typography>
-                </Grid2>
-                <Grid2 size={{ xs: 10, sm: 10, md: 10, lg: 4, xl: 4 }}>
+                </Grid>
+                <Grid size={{ xs: 10, sm: 10, md: 10, lg: 4, xl: 4 }}>
                   <Typography
                     variant="h6"
                     sx={{
@@ -33,8 +33,8 @@ const Work: React.FC = () => {
                   >
                     {work.date}
                   </Typography>
-                </Grid2>
-              </Grid2>
+                </Grid>
+              </Grid>
               {work.assignment && (
                 <Box>
                   {work.assignment.map((assignment, index) => (
@@ -58,9 +58,9 @@ const Work: React.FC = () => {
                   {work.skills.join(", ")}
                 </Typography>
               )}
-            </Grid2>
+            </Grid>
 
-            <Grid2 size={2} sx={{ textAlign: "right" }}>
+            <Grid size={2} sx={{ textAlign: "right" }}>
               {work.image && (
                 <a
                   href={work.link || "#"}
@@ -77,8 +77,8 @@ const Work: React.FC = () => {
                   />
                 </a>
               )}
-            </Grid2>
-          </Grid2>
+            </Grid>
+          </Grid>
         </Box>
       ))}
     </Box>

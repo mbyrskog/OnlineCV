@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Divider, Grid2 } from "@mui/material";
+import { Box, Typography, Divider, Grid } from "@mui/material";
 import { educationData } from "./EducationData";
 
 const Education: React.FC = () => {
@@ -9,16 +9,16 @@ const Education: React.FC = () => {
       <Divider sx={{ marginY: 2 }} />
       {educationData.map((edu, index) => (
         <Box key={index} marginBottom={2}>
-          <Grid2 container>
-            <Grid2 size={10}>
-              <Grid2 container>
-                <Grid2 size={{ xs: 10, lg: 8 }}>
+          <Grid container>
+            <Grid size={10}>
+              <Grid container>
+                <Grid size={{ xs: 10, lg: 8 }}>
                   <Typography variant="h5">{edu.institution || ""}</Typography>
                   <Typography variant="h6">
                     {edu.title ? edu.title : ""}
                   </Typography>
-                </Grid2>
-                <Grid2 size={{ xs: 10, sm: 10, md: 10, lg: 4, xl: 4 }}>
+                </Grid>
+                <Grid size={{ xs: 10, sm: 10, md: 10, lg: 4, xl: 4 }}>
                   <Typography
                     variant="h6"
                     sx={{
@@ -33,11 +33,11 @@ const Education: React.FC = () => {
                   >
                     {edu.date}
                   </Typography>
-                </Grid2>
-              </Grid2>
+                </Grid>
+              </Grid>
               <Typography whiteSpace="pre-line">{edu.description}</Typography>
-            </Grid2>
-            <Grid2 size={2} sx={{ textAlign: "right" }}>
+            </Grid>
+            <Grid size={2} sx={{ textAlign: "right" }}>
               {edu.image && (
                 <a
                   href={edu.link || "#"}
@@ -54,8 +54,8 @@ const Education: React.FC = () => {
                   />
                 </a>
               )}
-            </Grid2>
-          </Grid2>
+            </Grid>
+          </Grid>
         </Box>
       ))}
     </Box>
