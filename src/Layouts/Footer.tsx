@@ -1,7 +1,7 @@
 import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
 import { GitHub, LinkedIn, Mail } from "@mui/icons-material";
 
-const Footer: React.FC = () => {
+export const Footer = () => {
   return (
     <AppBar position="static">
       <Toolbar
@@ -38,5 +38,3 @@ const Footer: React.FC = () => {
     </AppBar>
   );
 };
-
-export default Footer;

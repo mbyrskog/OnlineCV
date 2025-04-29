@@ -25,10 +25,12 @@ const pages = [
   { name: "Contact", path: "/contact" },
 ];
 
-const Header: React.FC<{
+type HeaderProps = {
   toggleTheme: () => void;
   isDarkMode: boolean;
-}> = ({ toggleTheme, isDarkMode }) => {
+};
+
+export const Header = ({ toggleTheme, isDarkMode }: HeaderProps) => {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const toggleDrawer = (open: boolean) => () => {
@@ -182,5 +184,3 @@ const Header: React.FC<{
     </AppBar>
   );
 };
-
-export default Header;

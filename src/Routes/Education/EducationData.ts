@@ -1,11 +1,11 @@
-interface EducationData {
+type EducationData = {
   date: string;
   title: string;
   institution: string;
   description: string;
   image?: string;
   link?: string;
-}
+};
 
 export const educationData: EducationData[] = [
   {

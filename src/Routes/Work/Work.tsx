@@ -1,8 +1,7 @@
-import React from "react";
 import { Box, Typography, Divider, Grid } from "@mui/material";
 import { workData } from "./WorkData";
 
-const Work: React.FC = () => {
+export const Work = () => {
   return (
     <Box>
       <Typography variant="h4">Work experience</Typography>
@@ -84,5 +83,3 @@ const Work: React.FC = () => {
     </Box>
   );
 };
-
-export default Work;

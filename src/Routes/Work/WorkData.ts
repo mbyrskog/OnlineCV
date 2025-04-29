@@ -9,7 +9,7 @@ export type Skills =
   | "WordPress"
   | "Umbraco";
 
-interface WorkData {
+type WorkData = {
   date: string;
   position?: string;
   company: string;
@@ -22,7 +22,7 @@ interface WorkData {
     description: string;
     skills?: Skills[];
   }[];
-}
+};
 
 export const workData: WorkData[] = [
   {

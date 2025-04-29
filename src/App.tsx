@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
-import PublicLayout from "./Layouts/PublicLayout";
-import About from "./Routes/About";
-import Education from "./Routes/Education/Education";
-import Contact from "./Routes/Contact";
-import Work from "./Routes/Work/Work";
+import { PublicLayout } from "./Layouts/PublicLayout";
 import { darkTheme, lightTheme } from "./Layouts/Theme";
-import Downloads from "./Routes/Downloads/Downloads";
+import { Contact } from "./Routes/Contact";
+import { Downloads } from "./Routes/Downloads/Downloads";
+import { Education } from "./Routes/Education/Education";
+import { Work } from "./Routes/Work/Work";
+import { About } from "./Routes/About";
 
-function App() {
+export const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleTheme = () => {
@@ -36,6 +36,4 @@ function App() {
       </Routes>
     </ThemeProvider>
   );
-}
-
-export default App;
+};

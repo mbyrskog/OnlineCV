@@ -1,9 +1,9 @@
 import { Box, Button, Divider, Link, Typography } from "@mui/material";
-import React, { useState } from "react";
+import { useState } from "react";
 import { fileData } from "./DownloadData";
 import { linkData } from "./DownloadData";
 
-const Downloads: React.FC = () => {
+export const Downloads = () => {
   const [activeFile, setActiveFile] = useState<string | null>(null);
 
   const toggleViewer = (url: string) => {
@@ -109,5 +109,3 @@ const Downloads: React.FC = () => {
     </Box>
   );
 };
-
-export default Downloads;

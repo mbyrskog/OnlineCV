@@ -1,15 +1,17 @@
 import { Box } from "@mui/material";
 import { Outlet } from "react-router-dom";
-import Header from "./Header";
-import Footer from "./Footer";
+import { Footer } from "./Footer";
+import { Header } from "./Header";
 
-function PublicLayout({
-  toggleTheme,
-  isDarkMode,
-}: {
+type PublicLayoutProps = {
   toggleTheme: () => void;
   isDarkMode: boolean;
-}) {
+};
+
+export const PublicLayout = ({
+  toggleTheme,
+  isDarkMode,
+}: PublicLayoutProps) => {
   return (
     <Box
       sx={{
@@ -33,6 +35,4 @@ function PublicLayout({
       <Footer />
     </Box>
   );
-}
-
-export default PublicLayout;
+};

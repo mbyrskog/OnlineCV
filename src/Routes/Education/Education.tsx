@@ -1,8 +1,7 @@
-import React from "react";
 import { Box, Typography, Divider, Grid } from "@mui/material";
 import { educationData } from "./EducationData";
 
-const Education: React.FC = () => {
+export const Education = () => {
   return (
     <Box>
       <Typography variant="h4">Education and certifications</Typography>
@@ -61,5 +60,3 @@ const Education: React.FC = () => {
     </Box>
   );
 };
-
-export default Education;

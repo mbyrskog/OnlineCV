@@ -1,6 +1,6 @@
 import { Box, Divider, Typography } from "@mui/material";
 
-const About: React.FC = () => {
+export const About = () => {
   return (
     <Box>
       <Typography variant="h4">About me</Typography>
@@ -26,5 +26,3 @@ const About: React.FC = () => {
     </Box>
   );
 };
-
-export default About;

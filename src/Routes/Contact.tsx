@@ -1,6 +1,6 @@
 import { Box, Divider, Link, Typography } from "@mui/material";
 
-const Contact: React.FC = () => {
+export const Contact = () => {
   return (
     <Box>
       <Typography variant="h4">Contact</Typography>
@@ -36,5 +36,3 @@ const Contact: React.FC = () => {
     </Box>
   );
 };
-
-export default Contact;

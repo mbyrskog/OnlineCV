@@ -1,15 +1,15 @@
-interface FileData {
+type FileData = {
   title: string;
   url: string;
-}
+};
 
-interface LinkData {
+type LinkData = {
   title: string;
   description: string;
   url?: string;
   titleTwo?: string;
   urlTwo?: string;
-}
+};
 
 export const fileData: FileData[] = [
   { title: "Scrum Master Certification (PSM1)", url: "../assets/psm1.pdf" },
