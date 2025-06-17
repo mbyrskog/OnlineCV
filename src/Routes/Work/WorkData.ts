@@ -31,7 +31,13 @@ export const workData: WorkData[] = [
     company: "Nexer Group",
     assignment: [
       {
-        title: "MKB Fastighets AB | February 2024 - Today",
+        title: "Danir / Star for Life - Pro Bono Project | May 2025 - Present",
+        description:
+          "An application that allows participants to log physical activities by distance and compete with others. All benefits are donated to charity, supporting the mission of Star for Life. Contributed as part of a pro bono initiative to promote health, engagement, and social impact through technology.",
+        skills: ["TypeScript", "React", "Azure DevOps"],
+      },
+      {
+        title: "MKB Fastighets AB | February 2024 - April 2025",
         description:
           "Development of an application for administrators to manage rental processes for parking spots around Malmö, queues for apartments, and more. Also working with support for previous systems.",
         skills: ["TypeScript", "React", "Azure DevOps", "Scrum"],
