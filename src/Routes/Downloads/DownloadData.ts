@@ -50,11 +50,11 @@ export const linkData: LinkData[] = [
     urlTwo: "https://github.com/mbyrskog/HotelApp",
   },
   {
-    title: "Portfolio",
+    title: "Online CV",
     description:
       "This app, using React, TypeScript and Material UI for responsiveness and theme colors.",
     url: "https://portfolio-sigma-flame-72.vercel.app/",
     titleTwo: "GitHub Repository",
-    urlTwo: "https://github.com/mbyrskog/Portfolio",
+    urlTwo: "https://github.com/mbyrskog/onlinecv",
   },
 ];
