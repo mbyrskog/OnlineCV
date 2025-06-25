@@ -53,7 +53,7 @@ export const linkData: LinkData[] = [
     title: "Online CV",
     description:
       "This app, using React, TypeScript and Material UI for responsiveness and theme colors.",
-    url: "https://portfolio-sigma-flame-72.vercel.app/",
+    url: "https://onlinecv-sigma-flame-72.vercel.app/",
     titleTwo: "GitHub Repository",
     urlTwo: "https://github.com/mbyrskog/onlinecv",
   },
