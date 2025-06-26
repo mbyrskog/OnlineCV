@@ -6,7 +6,7 @@ export const About = () => {
       <Typography variant="h4">About me</Typography>
       <Divider sx={{ marginY: 2 }} />
       <Typography gutterBottom>
-        Hello and welcome to my online CV! My name is Michael, and I'm a
+        Hello and welcome to my online CV. My name is Michael, and I'm a
         software developer with experience in building scalable and practical
         applications using technologies like React, .NET, and cloud-based
         services. I have experience working both in frontend and backend, often
