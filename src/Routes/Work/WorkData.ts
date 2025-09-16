@@ -31,19 +31,19 @@ export const workData: WorkData[] = [
     company: "Nexer Group",
     assignment: [
       {
-        title: "Danir / Star for Life | May 2025 - Present",
+        title: "Danir ◦ 2025-05 - Today",
         description:
-          "An application that allows participants to log physical activities by distance and compete with others. All benefits were donated to charity, supporting the mission of Star for Life. Contributed as part of an inhouse initiative to promote health, engagement, and social impact through technology.",
+          "Fun run, an application that allows participants to log physical activities by distance and compete with others. All benefits were donated to charity, supporting the mission of Star for Life. Contributed as part of an in-house initiative to promote health, engagement, and social impact through technology.",
         skills: ["TypeScript", "React", "Azure DevOps"],
       },
       {
-        title: "MKB Fastighets AB | February 2024 - April 2025",
+        title: "MKB Fastighets AB ◦ 2024-02 - 2025-04",
         description:
           "Development of an application for administrators to manage rental processes for parking spots around Malmö, queues for apartments, and more. Also worked with support for previous systems.",
-        skills: ["TypeScript", "React", "Azure DevOps", "Scrum"],
+        skills: ["TypeScript", "React", "C#/.NET", "Azure DevOps", "Scrum"],
       },
       {
-        title: "HSB Affärsstöd | January 2020 - October 2023",
+        title: "HSB Affarsstöd ◦ 2020-01 - 2023-10",
         description:
           "Development of new microservices. Examples are a service for storing and sharing files, a service for managing motions, letters, subleases and creating protocols for board meetings. Also worked part time as a Scrum Master, facilitating Scrum events and handling requirements in collaboration with product owners. Support for these services was also part of the daily work",
         skills: ["TypeScript", "Angular", "C#/.NET", "Azure DevOps", "Scrum"],
