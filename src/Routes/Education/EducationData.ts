@@ -37,8 +37,7 @@ export const educationData: EducationData[] = [
     date: "2014-09 - 2017-06",
     institution: "Mid Sweden University",
     title: "Informatics with Focus on System Development, 180 Credits",
-    description:
-      "Education in informatics and system science. After two years of completed studies and a practical degree project, I earned my first university degree. I then completed a third year consisting of selected courses and a theoretical degree project to obtain a bachelor's degree.",
+    description: "Degree of Bachelor of Science with Major in Informatics.",
     image: "./assets/images/education/miun.png",
     link: "https://www.miun.se",
   },

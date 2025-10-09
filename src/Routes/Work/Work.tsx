@@ -41,7 +41,14 @@ export const Work = () => {
                       <Typography>{assignment.title}</Typography>
                       <Typography>{assignment.description}</Typography>
                       {assignment.skills && (
-                        <Typography sx={{ fontStyle: "italic", mb: 2, mt: 1 }}>
+                        <Typography
+                          sx={{
+                            fontStyle: "italic",
+                            textDecoration: "underline",
+                            mb: 2,
+                            mt: 1,
+                          }}
+                        >
                           {assignment.skills.join(", ")}
                         </Typography>
                       )}
@@ -53,7 +60,14 @@ export const Work = () => {
               <Typography>{work.description}</Typography>
 
               {work.skills && (
-                <Typography sx={{ mb: 2, mt: 1, fontStyle: "italic" }}>
+                <Typography
+                  sx={{
+                    mb: 2,
+                    mt: 1,
+                    fontStyle: "italic",
+                    textDecoration: "underline",
+                  }}
+                >
                   {work.skills.join(", ")}
                 </Typography>
               )}
