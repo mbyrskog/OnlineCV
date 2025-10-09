@@ -33,7 +33,7 @@ export const workData: WorkData[] = [
       {
         title: "Danir ◦ 2025-05 - Today",
         description:
-          "Fun run, an application that allows participants to log physical activities by distance and compete with others. All benefits were donated to charity, supporting the mission of Star for Life. Contributed as part of an in-house initiative to promote health, engagement, and social impact through technology.",
+          "Development of an application that allows participants to log physical activities by distance and compete with others. All benefits were donated to charity, supporting the mission of Star for Life. Contributed as part of an in-house initiative.",
         skills: ["TypeScript", "React", "Azure DevOps"],
       },
       {
