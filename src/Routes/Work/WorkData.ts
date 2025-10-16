@@ -26,12 +26,12 @@ type WorkData = {
 
 export const workData: WorkData[] = [
   {
-    date: "2020-02 - TODAY",
+    date: "2020-02 - 2025-10",
     position: "Consultant / System Developer",
     company: "Nexer Group",
     assignment: [
       {
-        title: "Danir ◦ 2025-05 - Today",
+        title: "Danir ◦ 2025-05 - 2025-10",
         description:
           "Development of an application that allows participants to log physical activities by distance and compete with others. All benefits were donated to charity, supporting the mission of Star for Life. Contributed as part of an in-house initiative.",
         skills: ["TypeScript", "React", "Azure DevOps"],

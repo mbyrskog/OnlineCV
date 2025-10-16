@@ -92,6 +92,7 @@ export const Work = () => {
               )}
             </Grid>
           </Grid>
+          <Divider />
         </Box>
       ))}
     </Box>

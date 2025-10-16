@@ -172,7 +172,7 @@ export const Header = ({ toggleTheme, isDarkMode }: HeaderProps) => {
                   color: isDarkMode ? "primary.light" : "secondary.light",
                 },
                 "&.active": {
-                  color: isDarkMode ? "secondary.main" : "primary.dark",
+                  color: isDarkMode ? "secondary.light" : "primary.dark",
                 },
               }}
             >
