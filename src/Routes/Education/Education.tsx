@@ -55,6 +55,7 @@ export const Education = () => {
               )}
             </Grid>
           </Grid>
+          <Divider />
         </Box>
       ))}
     </Box>
