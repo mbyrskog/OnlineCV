@@ -59,7 +59,7 @@ export const workData: WorkData[] = [
     description:
       "Development, maintenance, and support of web applications. Worked with the intranet for the organization and with a public service for handling healthcare procurements around Skånes municipalities.",
     image: "./assets/images/work/skaneskommuner.jpg",
-    link: "https://www.skaneskommuner.se",
+    link: "https://skaneskommuner.se/",
     skills: ["Angular", "C#/.NET", "Umbraco", "PHP", "WordPress"],
   },
   {
